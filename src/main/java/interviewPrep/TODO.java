@@ -2,60 +2,7 @@ package interviewPrep;
 
 public class TODO {
 
-    /*
- * Given 2 arrays. They are consist of non empty strings. Write a function to find out all elements appear in first array but not in second array.
-  Sample input:
-    Array A: ["one", "two", "four", "ten"]
-    Array B: ["one", "four", "seven", "six"]
-  Sample output:
-    In A not in B: ["two", "ten"]
-    In B not in A: ["seven", "six"]
-
-
-function (array1, array2) {
-  console.log(`Array A: `, array1)
-  console.log(`Array B: `, array2)
-  let result1 = []
-  let result2 = []
-  // Implementation
-  console.log(`In A not in B: `, result1)
-  console.log(`In B not in A: `, result2)
-}
-
-// Main here
-
-**/
-
-
 /*
-
-3.
-int a=5;
-int b=6;
-change and print
-a==6;
-b==5;
-
-4.
- Use Collection int a [] = {2,5,7,15,1,6};
-   int a [] = {2,5,7,15,1,6};
-   output
-   13   < Max number minus second min num and result is 13
-
-5.
-Don't use sort method
-ArrayList<Integer> list =  new ArrayList<>(Arrays.asList(1,10, 50, 2, 4, 50, 10, 3, 2,5, 4));
-first
-output
-[1, 2, 2, 3, 4, 4, 5, 10, 10, 50, 50]
-
-second
-[50, 50, 10, 10, 5, 4, 4, 3, 2, 2, 1]
-
----------------SECOND------------
-Store into Array
-2int[] arr = {1, 2, 3, 49, 6, 5};
-ArrayList<Integer> list = new ArrayList();
 
 6
 String h="AAABBBCCC";
@@ -93,18 +40,6 @@ CD015ACCCG011899
 int[]a={1,2,3,4,5,6,7};
 
 
-
-//11  if disc  true
-int[]a={7,6,5,4};
-
-
-
-//12  Remove zeros
-  int[] arr = {1, 0,0,2,0, 3, 49, 6, 5};
-        ArrayList<Integer> list = new ArrayList<>();
-
-output
-[1, 2, 3, 49, 6, 5, 0, 0, 0]
 
 //13
  int arr1[]={1,2,3};
