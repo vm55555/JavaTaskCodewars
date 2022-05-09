@@ -3,28 +3,12 @@ package interviewPrep;
 public class TODO {
 
 /*
-8
-   String s="1a2b3c4f!@#";
-    int sum=0;
-        String letter="";
-        String digit="";
-        String sign="";
-
-
-
 
 //15
 FINRA
 total number is 30. if num divided by3 and 5 print FINRA,in num divided by 3
 print FIN,if num divided by 5 print RA
 
-//17
-int  a = 10;
-        int  b  = 20;
-
-        output
-      a  20
-      b  10
 
 //18
 
