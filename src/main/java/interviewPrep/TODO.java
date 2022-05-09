@@ -3,20 +3,6 @@ package interviewPrep;
 public class TODO {
 
 /*
-
-6
-String h="AAABBBCCC";
-        String result = "";
-
-output
-ABC
-
-7
-String h="AAABBBCCCDEF";
-        String result = "";
-
- output
-  DEF
 8
    String s="1a2b3c4f!@#";
     int sum=0;
@@ -24,46 +10,13 @@ String h="AAABBBCCCDEF";
         String digit="";
         String sign="";
 
-   output
-   10
-a b c f
-1 2 3 4
-!@#
-
-9
-String str="DC501GCCCA098911";
-
-output
-CD015ACCCG011899
-
-//10 if ascend true
-int[]a={1,2,3,4,5,6,7};
 
 
-
-//13
- int arr1[]={1,2,3};
-        int arr2[]={4,5,6,7};
-
-        output
-     [1, 2, 3, 4, 5, 6, 7]
-
-//14 Use String
-int a=5;
-
-if number is odd output will be odd, if number is even output will be even
 
 //15
 FINRA
 total number is 30. if num divided by3 and 5 print FINRA,in num divided by 3
 print FIN,if num divided by 5 print RA
-
-//16  USE WHILE LOOP
-int num1=5;
-int num2=2;
-
-output
-5 devided by 2 is: 2 and remainder is 1
 
 //17
 int  a = 10;
