@@ -3,69 +3,9 @@ package interviewPrep;
 public class TODO {
 
 /*
-
-
-
-
-//18
-
-        String divisibleBy15 ="";
-        String divisibleBy5 ="";
-        String divisibleBy3="";
-
-        int[] arr = new int[100];
-Divisible By 15: 15 30 45 60 75 90
-Divisible By 5: 5 10 20 25 35 40 50 55 65 70 80 85 95 100
-Divisible By 3: 3 6 9 12 18 21 24 27 33 36 39 42 48 51 54 57 63 66 69 72 78 81 84 87 93 96 99
-
-//19
-1. Write a return method that can verify if a password is valid or not.
- 1. Password MUST be at least have 6 characters and should not contain space
-2. PassWord should at least contain one upper case letter
-3. PassWord should at least contain one lowercase letter
-4. Password should at least contain one special characters
-5. Password should at least contain a digit
-
-//20
-Write a function:
-that, given a positive integer N, prints the consecutive numbers from 1 to N,
- each on a separate line. However, any number divisible by 2, 3 or 5 should be
- replaced by the word Codility, Test or Coders respectively. If a number is
- divisible by more than one of the numbers: 2,3 or 5, it should be replaced by
-  a concatenation of the respective words Codility, Test and Coders in this
-   given order. For example, numbers divisible by both 2 and 3 should be
-    replacée by CodilityTest and numbers divisible by all three numbers: 2,3
-     and 5, should be replaced by CodilityTestCoders.
-
-
- 1
-Codility
-Test
-Codility
-Coders
-CodilityTest
-7
-Codility
-Test
-Codi1ityCoders
-11
-CodilityTest
-13
-Codility
-TestCoders
-Codility
-
-//21
-Factorial Number
-
-//22
-Numbers -- Prime Number. Prime num is a number that divided by itself and 1
-Write a method that can check if a number is prime or not
-
 //23
 int num=-1234556;
 -6554321
-
 
 //24  USE ITERATOR
 ArrayList -- Remove "Ahmed"
