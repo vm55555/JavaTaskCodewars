@@ -4,10 +4,7 @@ public class TODO {
 
 /*
 
-//15
-FINRA
-total number is 30. if num divided by3 and 5 print FINRA,in num divided by 3
-print FIN,if num divided by 5 print RA
+
 
 
 //18
