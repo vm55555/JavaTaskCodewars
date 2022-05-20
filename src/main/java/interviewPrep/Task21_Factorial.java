@@ -8,8 +8,8 @@ public class Task21_Factorial {
 
     public static int factorial (int num){
         int n=1;
-        for (int i = 1; i < num; i++) {
-            n*=(i+1);
+        for (int i = 1; i <= num; i++) {
+            n*=i;
         }
         return n;
     }
