@@ -7,11 +7,11 @@ public class Task14_PermutationCombinations {
         permutations(arr);
     }
 
-    public static void permutations(int [] arr){
+    public static void permutations(int [] arr) {
 
         int res = 1;
 
-        for(int i = 0; i < arr.length; i++){
+        for (int i = 0; i < arr.length; i++) {
             res *= i + 1;
         }
 
@@ -19,11 +19,11 @@ public class Task14_PermutationCombinations {
 
         int temp = 0;
 
-        for(int i = 0; i < arr.length; i++){
+        for (int i = 0; i < arr.length; i++) {
 
-            for(int j = 0; j < arr.length - 1; j++){
+            for (int j = 0; j < arr.length - 1; j++) {
 
-                for(int k = 0; k < arr.length; k++){
+                for (int k = 0; k < arr.length; k++) {
                     System.out.print(arr[k]);
                 }
                 System.out.println();
@@ -34,11 +34,10 @@ public class Task14_PermutationCombinations {
             }
         }
     }
-
-
 }
 
 /*
 14) Array - permutation combinations
 Given an array of 3 characters print all permutation combinations from the given characters
  */
+

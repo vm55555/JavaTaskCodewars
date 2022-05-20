@@ -48,13 +48,4 @@ public class Task20_SimilarToFizzBuzz {
             }
         }
     }
-
-    public static int factorial(int num) {
-        int n = 1;
-        for (int j = 1; j < num; j++) {
-            n *= (j + 1);
-        }
-        return n;
-    }
-
 }
