@@ -28,17 +28,19 @@ public class Brackets {
 
         Deque<Character> deque = new LinkedList<>();
 
-        for (int i = 0; i < str.length(); i++) {
+        for (int i = 0; i < str.length(); i++) { //"{([])}";
             Character closingBracket = str.charAt(i);
             Character openingBracket = map.get(closingBracket);
             if (openingBracket == null){
                 deque.add(closingBracket);
+                System.out.println("deque = " + deque);
 
             }else {
                 if (deque.size() == 0 || deque.pollLast() != openingBracket){ // pollLast get last element from deque and compare it with openingBracket element,
                     // if they do not match - return false, if match pollLast removed last element from deque.
                     return false;
                 }
+                System.out.println("deque = " + deque);
             }
         }
         return deque.size() == 0;
