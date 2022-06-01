@@ -3,34 +3,6 @@ package interviewPrep;
 public class TODO {
 
 /*
-//23
-int num=-1234556;
--6554321
-
-//24  USE ITERATOR
-ArrayList -- Remove "Ahmed"
-ArrayList<String> names = new ArrayList<>(Arrays.asList("Ahmed", "John", Eric", "Ahmed".));
-
-//25 USE ITERATOR
-ArrayList<Integer> list1 = new ArrayList<>(Arrays.asList(1,2,3,4,5,6,7,8,9,101,200,300));
-
-output
-[1, 2, 3, 4, 5, 6, 7, 8, 9]
-
-
-//26
-Write a method that can check if a number is Armstrong  number
-
-Armstrong number is a number that is equal to the sum of cubes of its digits.
- For example 0, 1, 153, 370, 371 and 407 are the Armstrong numbers. Let's try to
- understand why 153 is an Armstrong number. Let's try to understand why 371 is an
-  Armstrong number.
-
-//27 frequency
-  String str="AABBDDDC";
-        Map<Character, Integer> map = new LinkedHashMap<>();
-        output
-{A=2, B=2, D=3, C=1}
 
 
 //28  Find unique
