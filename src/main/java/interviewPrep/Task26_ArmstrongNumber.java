@@ -3,7 +3,7 @@ package interviewPrep;
 public class Task26_ArmstrongNumber {
 
     public static void main(String[] args) {
-        int num=371;
+        int num=1634;
         System.out.println(armstrongNumbers(num));
     }
     public static boolean armstrongNumbers(int num){
