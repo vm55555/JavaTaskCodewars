@@ -1,31 +1,31 @@
 package mentorSession.HW_4;
 
 import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Task28_ArraySortDescendingOrder {
 
     public static void main(String[] args) {
-         int [] arr = {5, 8, 6, 1, 2, 9, 10};
-        System.out.println(Arrays.toString(sortDescendingOrder(arr)));
+        ArrayList<Integer> list = new ArrayList<>(Arrays.asList(1, 5, 6, 8, 4, 0));
+        System.out.println(sortAscending(list));
     }
 
-    public static int[] sortDescendingOrder(int [] arr){
+    public static ArrayList<Integer> sortAscending(ArrayList<Integer> list){
 
         int temp = 0;
 
-        for(int i = 0; i < arr.length; i++){
-            for(int j = i; j < arr.length; j++){
-
-                if(arr[i] < arr[j]){
-                    temp = arr[i];
-                    arr[i] = arr[j];
-                    arr[j] = temp;
+        for(int i = 0; i < list.size() ; i++){
+            for(int j = i; j < list.size();j++){
+                if(list.get(i) < list.get(j)){
+                    temp = list.get(i);
+                    list.set(i, list.get(j));
+                    list.set(j, temp);
                 }
             }
         }
 
-        return arr;
+        return list;
     }
 }
 
