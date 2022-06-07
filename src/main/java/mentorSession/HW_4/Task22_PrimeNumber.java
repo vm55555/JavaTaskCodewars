@@ -8,7 +8,6 @@ public class Task22_PrimeNumber {
 
         System.out.println(isPrime(17));
     }
-
     public static boolean isPrime(Integer num){
 
         Predicate<Integer> isPrime = n -> {

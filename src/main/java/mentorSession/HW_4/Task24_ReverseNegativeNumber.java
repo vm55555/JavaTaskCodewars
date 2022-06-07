@@ -4,22 +4,31 @@ public class Task24_ReverseNegativeNumber {
 
     public static void main(String[] args) {
 
-        System.out.println(reverseNumber(-123456));
+        System.out.println(reverseNumber(-1234005600));
     }
 
     public static int reverseNumber(int num){
 
         String str = num + "";
-        StringBuilder res = new StringBuilder();
+        String res = "";
 
         if(str.charAt(0) == '-'){
-            res.append("-");
+            res = "-";
             for(int i = str.length() - 1; i >= 1; i--){
-               res.append(str.charAt(i));
+                if((res.length() == 1) && (str.charAt(i) == '0')){
+                    continue;
+                } else {
+                    res += str.charAt(i);
+                }
+
             }
         } else {
             for(int i = str.length() - 1; i >= 0; i--){
-                res.append(str.charAt(i));
+                if((res.length() == 0) && (str.charAt(i) == '0')){
+                    continue;
+                } else {
+                    res += str.charAt(i);
+                }
             }
         }
 
