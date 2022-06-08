@@ -3,15 +3,6 @@ package interviewPrep;
 public class TODO {
 
 /*
-
-
-34  USE double
-Dont use sort get max  4.5
-   String[] arr = {"1","2.5", "3", "3.5", "4.5"};
-
-   output
-   4.5
-
 //35
  String s = "Seda, 20, Leyla, 30";
 
