@@ -5,37 +5,9 @@ public class TODO {
 /*
 
 
-//28  Find unique
-  String str = "accabbcd";
-        Map<Character, Integer> unique = new HashMap<>();
 
-        output
 
-{d=1}
 
-//29
-Map -- Min value  and Max value
-   Map<String,Integer>t=new HashMap<>();
-t.put("a",2);
-t.put("q",5);
-t.put("w",1);
-
-output
-1
-
-30
-Array -- N unique integers that sum up to 0
-Write a function:
-that, given an integer N (1 < N < 100), returns an array containing N unique integers that
- sum up to 0. The function can return any such array. For example, given N = 4, the function
- could return [0,1,2,-3] or [-2,1, -4,5]. The answer [1, -1,1,3] would be incorrect
-  (because value 1 occurs twice). For N = 3 one of the possible answers is [-1,0,1]
-   (but there are many more correct answers).
-
-31
-//Given 2 arrays of ints, a and b, return true if
-        //they have the same first element or they have the same last element.
-        //Both arrays will be length 1 or more.
 
 32
 Create a function that counts the number of syllables a word has. Each syllable is
