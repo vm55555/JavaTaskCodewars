@@ -3,19 +3,6 @@ package interviewPrep;
 public class TODO {
 
 /*
-
-
-
-
-
-
-32
-Create a function that counts the number of syllables a word has. Each syllable is
-separated with a dash "-" Examples
-numberSyllables("buf-fet") ➞ 2
-
-        String q="buf-dt-rr"; >> 3
-
 33
   Given an int array length 3, if there is a 2 in the array
         immediately followed by a 3, set the 3 element to 0.
