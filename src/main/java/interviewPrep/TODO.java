@@ -3,45 +3,6 @@ package interviewPrep;
 public class TODO {
 
 /*
-//35
- String s = "Seda, 20, Leyla, 30";
-
- First output
- {Seda= 20,  Leyla= 30}
-
- Second
-  String str = "Seda, Nurik, Leyla, Seda";
-{Seda=,  Nurik=,  Leyla=,  Seda=}
-
-//36
- int a[]={1,3,5};
-        int b[]={2,4,6};
-
-output Array
-[1, 2, 3, 4, 5, 6]
-
-//37  Store Array and ArrayList
-
- int [] arr = {1,4,8,0,3,11,26,2};
-
- output
- [1, 8, 3, 26]
-
-
- //38  SORT MAP
-
-   Map<String, Integer> map=new LinkedHashMap<>();
-        map.put("Ilham",30);
-        map.put("Kenan",20);
-        map.put("Solmaz",10);
-        map.put("Venera",40);
-        map.put("Orxan",70);
-        map.put("Sada",60);
-        map.put("Esmira",50);
-        map.put("Ramil",80);
-//39
-Create 10 random number between 1 and 6
-
 //40  FIND missing number
 
  int r[]={-1,3,5,6,7,9,13,18,70,80,1400,1401,1405};
