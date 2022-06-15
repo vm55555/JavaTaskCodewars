@@ -7,20 +7,9 @@ public class TODO {
 
  int r[]={-1,3,5,6,7,9,13,18,70,80,1400,1401,1405};
 
-//41
-Calculate the power of a number using a while loop
-
-The power (or exponent) of a number says how many times to use the number in a multiplication.
- It is written as a small number to the right and above the base number.
-
-//42  reverse   USE STRINGBUFFER
-int num = -123;
-           //-321
 
 
-//43 Perfect number is the sum of numbers that perfectNum divided by sum
-int perfectNum =28;
-//eger regeme bolunen regemlerin cemi onun ozune beraberdirse perfect numberdi
+
 
 
 //44  COMBINE
