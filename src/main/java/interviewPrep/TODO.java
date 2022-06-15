@@ -3,37 +3,8 @@ package interviewPrep;
 public class TODO {
 
 /*
-//40  FIND missing number
-
- int r[]={-1,3,5,6,7,9,13,18,70,80,1400,1401,1405};
 
 
-
-
-
-
-//44  COMBINE
-int[] a = {1,2};
-        int[] b ={3,4};
-
-        output
-     [1, 2, 3, 4]
-=========================================================================
-  ---WHAT IS OUTPUT----
- String S1 = "Nisum";
-        String S2 = new String(S1);
-        String S3 ="Nisum";
-        System.out.println((S1.equals(S2)));
-        System.out.println(S1==S2);
-        System.out.println((S3==S1));
-========================================================================
-
-//45
-Find out most repetitive word
-ArrayList<String >fruits=new ArrayList<>(Arrays.asList("alma","alma","alma","alma"
-,"armud","armud","armud","armud","pear","apple","pear","pear"));
-
-====================================================================================
 //46
 
  String a="aaa10ss20bb30";
