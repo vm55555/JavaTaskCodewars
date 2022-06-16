@@ -11,15 +11,16 @@ public class Task25_ArrayRemoveElement {
         ArrayList<String> names = new ArrayList<>(Arrays.asList("Ahmed", "John", "Eric", "Ahmed"));
         String name  = "Ahmed";
 
-        ArrayList<Integer> num = new ArrayList<>(Arrays.asList(1, 2, 3, 2, 5));
+        ArrayList<Integer> nums = new ArrayList<>(Arrays.asList(1, 2, 3, 2, 5));
+        int num = 2;
 
 
         System.out.println(removeElement1(names, name));
         System.out.println(removeElement2(names, name));
-        System.out.println(removeElement2(num, 2));
+        System.out.println(removeElement2(nums, 2));
         System.out.println(removeElement3(names, name));
         System.out.println(removeElement4(names, name));
-        System.out.println(removeElement4(num, 2));
+        System.out.println(removeElement4(nums, 2));
 
     }
 

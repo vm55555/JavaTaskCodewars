@@ -4,13 +4,6 @@ public class TODO {
 
 /*
 
-
-//46
-
- String a="aaa10ss20bb30";
-
- output > 60
-
  //47
  Given alphanumeric String, we need to split the string into substrings of consecutive
   letters or numbers, sort the individual string and append them back together
