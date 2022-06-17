@@ -7,70 +7,54 @@ import java.util.List;
 public class String_SortLettersAndNumbers {
 
     public static void main(String[] args) {
-        String str = "12ABC91N9";
+        String str = "DC501GCCCA098911N3";
         System.out.println(splitAndSort(str));
     }
 
-    public static String sort(String str){
+    public static String sort(String str) {
 
-        String [] arr = str.split("");
+        String[] arr = str.split("");
         Arrays.sort(arr);
         String res = "";
 
-        for(String each: arr){
+        for (String each : arr) {
             res += each;
         }
 
         return res;
     }
+    public static String splitAndSort(String str) {
 
-    public static String splitAndSort(String str){
-
-        String tempLetters = "";
-        String tempNumbers = "";
-        List<String> list  = new LinkedList<>();
+        String temp = "";
+        List<String> list = new LinkedList<>();
         String res = "";
 
-        for(int i = 0; i < str.length() - 1; i++){
+        for (int i = 0; i < str.length() - 1; i++) {
 
             char ch = str.charAt(i);
             char nextCh = str.charAt(i + 1);
 
-            if(Character.isLetter(ch) && Character.isLetter(nextCh)){
-                tempLetters += ch;
+            if (Character.isLetter(ch) && Character.isLetter(nextCh) || (Character.isDigit(ch) && Character.isDigit(nextCh))) {
+                temp += ch;
 
-            } else if(Character.isDigit(ch) && Character.isDigit(nextCh)){
-                tempNumbers += ch;
-
-            } else if(Character.isLetter(ch) && Character.isDigit(nextCh)){
-                tempLetters += ch;
-                list.add(tempLetters);
-                tempLetters = "";
-
-            } else if(Character.isDigit(ch) && Character.isLetter(nextCh)){
-                tempNumbers += ch;
-                list.add(tempNumbers);
-                tempNumbers= "";
-
-            } else if(!Character.isDigit(ch) && !Character.isLetter(ch)){
+            } else if ((Character.isLetter(ch) && Character.isDigit(nextCh)) || (Character.isDigit(ch) && Character.isLetter(nextCh))) {
+                temp += ch;
+                list.add(temp);
+                temp = "";
+            } else if (!Character.isDigit(ch) && !Character.isLetter(ch)) {
                 return "String should contains only Numbers and Letters";
             }
         }
 
-        if(!tempLetters.isEmpty()){
-            list.add(tempLetters);
-        }
-        if(!tempNumbers.isEmpty()){
-            list.add(tempNumbers);
+        if (!temp.isEmpty()) {
+            list.add(temp);
         }
 
-        if(list.size() < str.length()){
+        if (list.size() < str.length()) {
             list.add(str.charAt(str.length() - 1) + "");
         }
 
-        System.out.println(list);
-
-        for(String each: list){
+        for (String each : list) {
             res += sort(each);
         }
 
