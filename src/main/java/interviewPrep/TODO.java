@@ -4,12 +4,6 @@ public class TODO {
 
 /*
 
- //47
- Given alphanumeric String, we need to split the string into substrings of consecutive
-  letters or numbers, sort the individual string and append them back together
-Input:  "D5C01GCCCA098911"
-OutPut: "CD015ACCCG011899"
-
 //48
   ArrayList<String>d=new ArrayList<>(Arrays.asList("A","A","A","A","D","C"));
 How do you find if ArrayList contains duplicates or not?
