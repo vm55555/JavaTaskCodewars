@@ -7,7 +7,7 @@ import java.util.List;
 public class String_SortLettersAndNumbers {
 
     public static void main(String[] args) {
-        String str = "DC501GCCCA098911N3";
+        String str = "DC501GCCCA098911N";
         System.out.println(splitAndSort(str));
     }
 
@@ -29,12 +29,12 @@ public class String_SortLettersAndNumbers {
         List<String> list = new LinkedList<>();
         String res = "";
 
-        for (int i = 0; i < str.length() - 1; i++) {
+        for (int i = 0; i < str.length() -1; i++) {
 
             char ch = str.charAt(i);
             char nextCh = str.charAt(i + 1);
 
-            if (Character.isLetter(ch) && Character.isLetter(nextCh) || (Character.isDigit(ch) && Character.isDigit(nextCh))) {
+            if ((Character.isLetter(ch) && Character.isLetter(nextCh) || (Character.isDigit(ch) && Character.isDigit(nextCh))) ){
                 temp += ch;
 
             } else if ((Character.isLetter(ch) && Character.isDigit(nextCh)) || (Character.isDigit(ch) && Character.isLetter(nextCh))) {
@@ -47,15 +47,16 @@ public class String_SortLettersAndNumbers {
         }
 
         if (!temp.isEmpty()) {
+            temp += str.charAt(str.length() - 1);
             list.add(temp);
-        }
-
-        if (list.size() < str.length()) {
-            list.add(str.charAt(str.length() - 1) + "");
         }
 
         for (String each : list) {
             res += sort(each);
+        }
+
+        if(res.length() < str.length()){
+            res += str.charAt(str.length() - 1);
         }
 
         return res;

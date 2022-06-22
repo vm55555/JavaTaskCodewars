@@ -5,10 +5,29 @@ public class Task46_SumNumbers {
 
     public static void main(String[] args) {
 
-        String a="aaa10ss20bb30a1";
+        String a="aaa10ss20bb30a10";
         System.out.println(sumNumbers(a));
+        System.out.println(sumOfDigits(a));
     }
 
+    public static int sumOfDigits(String str){
+
+        String temp = "0";
+        int sum = 0;
+
+        for(int i = 0; i < str.length(); i++){
+            if(Character.isDigit(str.charAt(i))){
+                temp += str.charAt(i);
+            } else {
+                sum += Integer.parseInt(temp);
+                temp = "0";
+            }
+        }
+
+        sum +=Integer.parseInt(temp);
+
+        return sum;
+    }
     public static int sumNumbers(String str){
 
         StringBuilder temp = new StringBuilder();
@@ -43,6 +62,8 @@ public class Task46_SumNumbers {
 
         return res;
     }
+
+
 }
 
 /*
