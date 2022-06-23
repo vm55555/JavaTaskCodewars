@@ -3,23 +3,13 @@ package interviewPrep;
 public class TODO {
 
 /*
-
-//48
-  ArrayList<String>d=new ArrayList<>(Arrays.asList("A","A","A","A","D","C"));
-How do you find if ArrayList contains duplicates or not?
-(ALSO REMOVE DUPLICATE AT SAME TIME)
-
 //49
 14 write a program which prints out the numbers from 1 to 30:
  for numbers which are divisible by 3, print "FIN" instead of the number.
 for numbers which are divisible by 5, print "RA" instead of the number
 for numbers which are a divisible by both 3 and 5, print "FINRA" instead of the number
 
-//50 Remove from same string assign same string
-String h="AABCC";
-Remove
-SECOND WAY --write a program that can return the unique characters from a string
-Ex:  "AABCC" ==> "B"
+
 
 //51
 We'll say that a "triple" in a string is a char appearing three times
