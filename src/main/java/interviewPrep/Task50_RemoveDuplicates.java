@@ -12,7 +12,6 @@ public class Task50_RemoveDuplicates {
     }
 
     public static String removeDuplicatesMap(String str) {
-        String output = "";
 
         Map<String, Integer> map = new HashMap<>();
 
@@ -25,14 +24,15 @@ public class Task50_RemoveDuplicates {
                 map.put(str.charAt(i) + "", 1);
             }
         }
+        str = "";
         for (Map.Entry<String, Integer> each : map.entrySet()) {
 
             if (each.getValue() == 1) {
-                output += each.getKey();
+                str += each.getKey();
             }
         }
 
-        return output;
+        return str;
     }
 
     public static String removeDuplicatesFreq(String str) {

@@ -3,13 +3,6 @@ package interviewPrep;
 public class TODO {
 
 /*
-//49
-14 write a program which prints out the numbers from 1 to 30:
- for numbers which are divisible by 3, print "FIN" instead of the number.
-for numbers which are divisible by 5, print "RA" instead of the number
-for numbers which are a divisible by both 3 and 5, print "FINRA" instead of the number
-
-
 
 //51
 We'll say that a "triple" in a string is a char appearing three times
