@@ -4,32 +4,7 @@ public class TODO {
 
 /*
 
-//51
-We'll say that a "triple" in a string is a char appearing three times
- in a row. Print out the number of triples in the given string.
- The triples may overlap. Example:input: abcXXXabc output: 1
 
- //52
- write a method that can print out the unique elements from an int array
-
-Ex: {1,1,2,3,3} ==> 2
-		{6,6,7,7,8,9} ==> 8 9
-  --write a method that can print out the unique elements from a double array
-		Note: Apply method overloading
-
-//53
-Write a for loop that will print out the string in alternating cases,
-with the first letter being lowercase
-
-//54
-Ask user enter 5 words and declare long word or Array
-String h[]={"hellow", "whyyyyyyyyyy", "byererdddd", "apple" , "notettttt"};
-
-
-//55
-int[] arr11 = {200, 155, 100, 4, 3, 1, -1, -100};
-convert it ascending array and print like this
-[-100, -1, 1, 3, 4, 100, 155, 200]
 
 //56
 Given an array of ints, print true if the array contains a 5 next
