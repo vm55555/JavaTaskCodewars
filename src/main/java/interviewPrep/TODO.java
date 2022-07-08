@@ -6,61 +6,7 @@ public class TODO {
 
 
 
-//56
-Given an array of ints, print true if the array contains a 5 next
-   to a 5 anywhere in the array. If no consecutive 5s or no 5s are
-   detected in your code then print false.
-nums → [1, 5, 5, 1, 1] → true
-nums → [1, 8, 5, 5, 0] → true
-nums → [1, 5, 4, 1, 5] → false
-nums → [1, 4, 4, 1, 99] → false
 
-//57
- Given an array nums with 7 integers every element is repeated twice
- - except one. Find that element and print it to console.
-Example:
-nums -> [1, 1, 2, 3, 4, 3, 4]
-         2
-
-//58
- Write a program that can return the average number from an array of
- integers
-  ex:
-      [10, 15, 5, 6]
- average: 9.0
-
- //59
- String sentence = "Today is great day";
-  Array [Today, is, great, day]
- reverse Array[Today, is, great, day] to >  day great is Today
-
- //60
- String sentence = "Today is great day";
- yad taerg si yadoT
-
- //61
-  write a program that can return the number of appearances of
-"java" and "python" anywhere in the sentence---"I Like java and javascript not python";
-You will do for each and regular for loop
-for each result: java 2
-                 python 1
-
- //62    int[][] numbers11 = {{9, 8, 7}, {6}, {5, 4, 3, 2, 1, 0}};
-
-  {  {9, 8, 7}, {6},  { { 5,4,3,2,1,0}   };  output should be this
-7 8 9 6 0 1 2 3 4 5
-
-//63
-{  {9, 8, 7}, {6},  {5,4,3,2,1,0}   };  output should be
-5 4 3 2 1 0 6 9 8 7
-
-//64
- {  {9, 8, 7}, {6},  {5,4,3,2,1,0}   };    output should be
-0 1 2 3 4 5 6 7 8 9
-
-//65
-String[] arrr = {"2.5","1.5", "3", "6.5","3.5", "4.5"};  by using sort Array get max and
-min number
 
 //66
  String [] k = {"bob","joe"};
