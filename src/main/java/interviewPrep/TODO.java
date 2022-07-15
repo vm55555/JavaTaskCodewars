@@ -4,47 +4,6 @@ public class TODO {
 
 /*
 
-
-
-
-
-//66
- String [] k = {"bob","joe"};
-        String  [] o = {"jones","smith"};
-
-   Complete the combineNames method to return a new String array that
-//is composed of the first name and last name of each of the parameters.
-//This may be confusing so look at the example:
-//first_names = {"bob","joe"}
-//last_names = {"jones","smith"}
-//returns a new String array with {"bob jones", "joe smith"}
-
-//67
-Combine arrays  int arr1[]={1,2,3};  int arr2[]={4,5,6,7};
-int arr3[]={1,2,3,4,5,6,7};
-
-//68
-//        input
-//        int[] num21 = {1,2,4,0,0,5,0};
-//        output
-//                [5, 4, 2, 1, 0, 0, 0]
------------------------------------------------------------------------
-//69
-input
-   int g[]={1,2,3};
-        int gg[]={4,5,6,7};
-        int h[]={8,9};
-        int dd[]={10,11};
-
- output
- [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
- ---------------------------------------------------------------------------
-//70 Store into Array
-int a[]={1,3,5};
-            int b[]={2,4,6};
-            output
-            [1,2,3,4,5,6]
-  ---------------------------------------------------------------
   //71
   String a="a2b5c7a9f0dafa2s6a8d5a";
                 String str="";
