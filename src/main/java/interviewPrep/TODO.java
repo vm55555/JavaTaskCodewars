@@ -4,12 +4,6 @@ public class TODO {
 
 /*
 
-  //71
-  String a="a2b5c7a9f0dafa2s6a8d5a";
-                String str="";
-                output
-                aaaaaa2b5c79f0df2s68d5
-----------------------------------------------------------------------
 //72
 don't use divide operator
 int a=11;

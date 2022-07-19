@@ -14,12 +14,10 @@ public class Task71_String {
         for(int i = 0; i < str.length(); i++){
             if(str.charAt(i) == 'a'){
                 res += 'a';
-                str = str.replaceFirst("a", "_");
             }
         }
 
-        str = str.replaceAll("_", "");
-
+        str = str.replaceAll("a", "");
         res += str;
 
         return res;
