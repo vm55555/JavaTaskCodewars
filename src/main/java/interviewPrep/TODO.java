@@ -4,57 +4,6 @@ public class TODO {
 
 /*
 
-//72
-don't use divide operator
-int a=11;
-int b=2;
- divide a by b and result is =5
-                     reminder =1
- ============================================================
-
- //73
- //Create 1 array int[] and 1 ArrayList and store result into them and get this result
-//Calculate each number of array: Ex 1+4,2+5,6+3
-//input
-//int a[]={1,2,3};// length 3
-//        int b[]={4,5,6,7,8};// length 5
-//
-//outputint a[]={1,2,3};// length 3
-////        int b[]={4,5,6,7,8};// length 5
-//[5, 7, 9, 7, 8]
-----------------------------------------------------------------------
-//74
-int[] arr = {5, 7, 3, 9, 1, 0};
-int pivot = 8
-In case we need to have pivot int inside the array the output should be: [5, 7, 3, 8, 9, 1, 0]
-
-//75
- ArrayList<String> gg = new ArrayList<>(Arrays.asList("three,four", "five","seven"));
-print out
- four five seven
-
- //76
- Output
-
-Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz
-[Aa , Bb , Cc , Dd , Ee , Ff , Gg , Hh , Ii , Jj , Kk , Ll , Mm , Nn , Oo , Pp , Qq , Rr , Ss , Tt ,
-
-//77
-       String str ="OsOdjjOssh";
-       replace "o" with "a" only the number of o is 3 or 4
-       asadjjassh <  BECAUSE THERE IS 3 O
-
-//78 USE MAP
-int a=25;
-int b=10;
-
-you have 2 integers
-and with values assigned
-how would u add them without + sign
- result =35;
- then subtract
- result=15;
-
 //===================================================================================
 //79
    //Write an efficient program to find the sum of contiguous sub array within a
