@@ -4,21 +4,6 @@ public class TODO {
 
 /*
 
-//===================================================================================
-//79
-   //Write an efficient program to find the sum of contiguous sub array within a
-        // one-dimensional array of numbers which has the largest sum.
-// int a[]={ -2, -3, 4, -1, -2, 1, 5, -3};
- output
- 7
-===================================================================================
-//80
- // Write a function that receives an array of positive integers with values
-        //between and the length or the array. That function returns the number
-        //that most frucient array
-         Integer arr[]={22,101,102,101,102,101,525,88};
-         output 101
-//==========================================================================
 //81
  String first="abccba"; < palindrome
  String second="abccbx"; < if it is not palindrome change x to a and make it palindrome
