@@ -26,6 +26,31 @@ function (array1, array2) {
   // Implementation
   console.log(`In A not in B: `, result1)
   console.log(`In B not in A: `, result2)
+
+  /85
+  /*
+//k=1; output should be 3 - most repetitive
+//k=2; output 2,3 - two most repetitive numbers
+
+int[] nums=[1,2,2,3,3,3,4];
+int k=2;
+
+
+    /86
+    Given a string s containing just the characters '(', ')', '{', '}', '[' and ']',
+determine if the input string is valid.
+
+(([])
+0,1,2,3,4
+
+
+     /87
+
+     String str = "AAABBCDDDDEEE";
+        String result = "";             // A3B2C1D4E3
+
+
+
 }
 
 // Main here
