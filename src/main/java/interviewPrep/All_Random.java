@@ -7,6 +7,6 @@ public class All_Random {
     public static void main(String[] args) {
 
         Random rnd = new Random();
-        System.out.println(rnd.nextInt(88));
+        System.out.println(rnd.nextInt(89));
     }
 }

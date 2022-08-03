@@ -55,6 +55,11 @@ determine if the input string is valid.
 
             [testemail@leetcode.com, testemail@lee.tcode.com]
 
+//89
+
+input -  "abcd"
+ output  "A-Bb-Ccc-Dddd"
+
 
 
 
