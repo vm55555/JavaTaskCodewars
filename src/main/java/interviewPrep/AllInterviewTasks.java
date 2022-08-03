@@ -49,6 +49,13 @@ determine if the input string is valid.
      String str = "AAABBCDDDDEEE";
         String result = "";             // A3B2C1D4E3
 
+       //88
+     String[] mail = {"test.email+alex@leetcode.com", "test.e.mail+bob.cathy@leetcode.com", "testemail+david@lee.tcode.com"};
+             String str = "";
+
+            [testemail@leetcode.com, testemail@lee.tcode.com]
+
+
 
 
 }
