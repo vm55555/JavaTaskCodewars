@@ -1,8 +1,6 @@
 package interviewPrep;
 
-import java.util.LinkedHashMap;
-import java.util.Map;
-import java.util.TreeMap;
+import java.util.*;
 
 public class Task38_SortMap {
 
@@ -18,7 +16,8 @@ public class Task38_SortMap {
         map.put("Esmira",50);
         map.put("Ramil",80);
 
-        System.out.println(sortMap(map));
+        //System.out.println(sortMap(map));
+        System.out.println(sortWithMaharram(map));
     }
 
     public static TreeMap<String, Integer> sortMap (Map <String, Integer> map){
@@ -26,6 +25,19 @@ public class Task38_SortMap {
         TreeMap<String, Integer> res = new TreeMap<>(map);
 
         return res;
+    }
+
+    public static Map<String, Integer> sortWithMaharram(Map <String, Integer> map) {
+
+        List<Map.Entry<String, Integer>> list = new ArrayList(map.entrySet());
+
+        list.sort(Map.Entry.comparingByKey()); //comparingByKey()
+        map.clear();
+        for (Map.Entry<String, Integer> each : list) {
+            map.put(each.getKey(), each.getValue());
+        }
+
+       return map;
     }
 }
 
