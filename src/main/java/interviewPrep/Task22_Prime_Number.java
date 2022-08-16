@@ -3,18 +3,20 @@ package interviewPrep;
 public class Task22_Prime_Number {
 
     public static void main(String[] args) {
-        System.out.println(isPrime(12));
+        System.out.println(isPrime(11));
     }
 
     public static boolean isPrime(int num){
 
-        for(int i = 2; i < num; i++){
+        int count = 0;
+
+        for(int i = 1; i <= num; i++){
             if(num % i == 0){
-                return false;
+                count ++;
             }
         }
 
-        return true;
+        return count == 2;
     }
 }
 
