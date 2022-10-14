@@ -8,20 +8,30 @@ import java.util.Map;
 public class Task86_BalancedString {
 
     public static void main(String[] args) {
-        String str = "([])";
+        String str = "}{{}()[[]]";
        // System.out.println(isBalanced(str));
         System.out.println(isBalanced(str));
     }
 
     public static boolean isBalanced(String str){
 
-        while (str.contains("()") || str.contains("{}") || str.contains("[]")){
+        while (str.contains("()") || str.contains("{}") || str.contains("[]") || str.contains("}{")){
 
-            str = str.replaceAll("\\(\\)", "").replaceAll("\\{\\}", "").replaceAll("\\[\\]", "");
+            str = str.replaceAll("\\(\\)", "").replaceAll("\\{\\}", "")
+                    .replaceAll("\\[\\]", "").replaceAll("\\}\\{", "");
         }
 
         return str.isEmpty();
     }
+
+
+
+
+
+
+
+
+    
 
     public static boolean isBalancedWithMap (String str){
 
