@@ -4,7 +4,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Array_Count_V {
-
     public static void main(String [] args){
 
         String [] testArray = {"Apple","Banana","Apple","Cherry"};
