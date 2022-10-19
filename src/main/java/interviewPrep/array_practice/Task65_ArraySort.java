@@ -8,7 +8,6 @@ public class Task65_ArraySort {
 
         String[] arr = {"2.5","1.5", "3", "6.5","3.5", "4.5"} ;
         maxAndMin(arr);
-
     }
 
     public static void maxAndMin(String [] arr){
