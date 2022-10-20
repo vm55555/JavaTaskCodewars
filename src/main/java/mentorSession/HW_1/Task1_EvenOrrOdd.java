@@ -6,11 +6,17 @@ public class Task1_EvenOrrOdd {
 
         System.out.println(identify(5));
         System.out.println(identify(6));
+        System.out.println(evenOrOdd(5));
     }
 
     public static String identify(int num){
 
         return num %2 == 0 ? "Eben" : "Odd";
+    }
+
+    public static String evenOrOdd(int num){
+
+        return num % 2 == 0 ? "Even" : "Odd";
     }
 }
 
