@@ -21,4 +21,5 @@ public class Task11022022 {
     }
 }
 
+
 /*https://codingbat.com/prob/p196652*/
