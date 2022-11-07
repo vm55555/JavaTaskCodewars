@@ -20,6 +20,7 @@ public class Task11042022 {
 
         return str;
     }
+
 }
 
 //https://codingbat.com/prob/p142247
